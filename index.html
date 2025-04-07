@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- Start Single Page Apps for GitHub Pages -->
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    (function(l) {
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) { 
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
+  <!-- End Single Page Apps for GitHub Pages -->
+
+    <style data-vite-theme="" data-inject-first="">:root {
+      --background: 240 10% 3.9%;
+--foreground: 0 0% 98%;
+--muted: 240 3.7% 15.9%;
+--muted-foreground: 240 5% 64.9%;
+--popover: 240 10% 3.9%;
+--popover-foreground: 0 0% 98%;
+--card: 240 10% 3.9%;
+--card-foreground: 0 0% 98%;
+--border: 240 3.7% 15.9%;
+--input: 240 3.7% 15.9%;
+--primary: 273 68% 59%;
+--primary-foreground: 267 80% 99%;
+--secondary: 240 3.7% 15.9%;
+--secondary-foreground: 0 0% 98%;
+--accent: 240 3.7% 15.9%;
+--accent-foreground: 0 0% 98%;
+--destructive: 0 62.8% 30.6%;
+--destructive-foreground: 0 0% 98%;
+--ring: 240 4.9% 83.9%;
+--radius: 0.75rem;
+  }
+  .light {
+      --background: 0 0% 100%;
+--foreground: 20 14.3% 4.1%;
+--muted: 60 4.8% 95.9%;
+--muted-foreground: 25 5.3% 44.7%;
+--popover: 0 0% 100%;
+--popover-foreground: 20 14.3% 4.1%;
+--card: 0 0% 100%;
+--card-foreground: 20 14.3% 4.1%;
+--border: 20 5.9% 90%;
+--input: 20 5.9% 90%;
+--primary: 273 68% 59%;
+--primary-foreground: 267 80% 99%;
+--secondary: 60 4.8% 95.9%;
+--secondary-foreground: 24 9.8% 10%;
+--accent: 60 4.8% 95.9%;
+--accent-foreground: 24 9.8% 10%;
+--destructive: 0 84.2% 60.2%;
+--destructive-foreground: 60 9.1% 97.8%;
+--ring: 20 14.3% 4.1%;
+--radius: 0.75rem;
+  }</style>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Yoshi Sound - Music Producer & Sound Designer</title>
+    <meta name="description" content="Professional music production, sound design, and audio services for games, film, and media." />
+    
+    <!-- GitHub Pages SPA Routing -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+
+      // Store the URL if we came here from a 404 redirect
+      if (window.location.search && window.location.search.includes('path=')) {
+        // Extract the path from the query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const path = urlParams.get('path');
+        
+        if (path) {
+          // Store the URL we should redirect to on page load
+          sessionStorage.redirect = window.location.origin + '/' + path;
+          // Clean up the URL in the address bar
+          window.history.replaceState(null, null, window.location.origin);
+        }
+      }
+
+      // Handle redirect if we have one stored
+      document.addEventListener('DOMContentLoaded', function() {
+        const redirect = sessionStorage.redirect;
+        if (redirect && redirect !== window.location.href) {
+          delete sessionStorage.redirect;
+          window.history.replaceState(null, null, redirect);
+        }
+      });
+    </script>
+    <script type="module" crossorigin src="/yoshi-s-studiob/assets/index-DrlNmtWI.js"></script>
+    <link rel="stylesheet" crossorigin href="/yoshi-s-studiob/assets/index-wMvoDp9Z.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
